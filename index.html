@@ -11,10 +11,15 @@
     <header class="header">
         <h1 class="h1-header">Etch-a-sketch</h1>
     </header>
-    
-    <button id="reset-button">
-        RESET
-    </button>
+
+    <div class="grid-manipulators">
+        <button id="reset-button">
+            Start fresh
+        </button>
+
+        <input type='range' min='2' max='100' value='16' class='slider'>
+        <p id="slider-tip">Use the slider to increase or decrease pixels.</p>
+    </div>
 
     <div class="container">
 
