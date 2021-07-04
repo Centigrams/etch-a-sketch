@@ -2,6 +2,7 @@ const container = document.querySelector('.container');
 const reset = document.querySelector('#reset-button');
 let defaultGridSize = 16;
 const slider = document.querySelector('.slider');
+const sliderValue = document.querySelector('#slider-value')
 
 function createGrid(gridSize) {
     // Create grid with inserted divs.
@@ -31,6 +32,7 @@ function resetGridColor() {
 function setGridPixels() {
     let gridCells = document.querySelectorAll('.cell');
     gridCells.forEach(gridCell => gridCell.remove());
+    sliderValue.textContent = `${slider.value} x ${slider.value}`
     createGrid(slider.value);
 }
 
