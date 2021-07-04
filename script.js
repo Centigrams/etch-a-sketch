@@ -32,7 +32,8 @@ function resetGridColor() {
 function setGridPixels() {
     let gridCells = document.querySelectorAll('.cell');
     gridCells.forEach(gridCell => gridCell.remove());
-    sliderValue.textContent = `${slider.value} x ${slider.value}`
+    //TODO: Add Arrow Key support for slider value.
+    sliderValue.textContent = `${slider.value} x ${slider.value}`;
     createGrid(slider.value);
 }
 
