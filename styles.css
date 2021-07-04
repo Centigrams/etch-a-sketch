@@ -25,6 +25,7 @@ body {
     position: static;
     margin: 0 auto;
     margin-bottom: 20px;
+    margin-top: 15px;
     background-color: #ffc94b;
     border-color: #ffc94b;
     border: none;
@@ -68,4 +69,15 @@ body {
     color: #ffbc1e;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: 600;
+}
+
+.slider-panel {
+    display: grid;
+    text-align: center;
+}
+
+#slider-value {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #ffbc1e;
+    font-weight: 800;
 }
