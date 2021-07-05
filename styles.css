@@ -46,7 +46,7 @@ body {
     margin-bottom: 15px;
     background: white;
     outline: none;
-
+    width: 200px;
     -webkit-transition: .2s;
     transition: opacity .2s;
     border-radius: 5px;
